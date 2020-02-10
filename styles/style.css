@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #262626;
+    min-width: 980px;
+}
+
+.main {
+    display: block;
+    //border: solid black;
+    margin-top: 140px;
+}
+
+.gnav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+}
+
+#appdrawer {
+    width: 18px;
+    height: 18px;
+    opacity: 0.55;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#profile-icon {
+    border-radius: 50%;
+}
+
+a.alt-link {
+    color: #0039e6;
+}
+
+#alt {
+    font-size: small;
+}
+
+a {
+    padding: 0 8px;
+    font-size: small;
+    color: #262626;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    display: inherit;
+    //border: solid black;
+    margin: 30px auto;
+}
+
+.search-group {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 180px;
+}
+
+#search-bar {
+    display: flex;
+    margin: 10px auto;
+    border-radius: 30px;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    width: 580px;
+}
+
+#search-bar:hover {
+    box-shadow: 0 2px 4px 1px #d9d9d9;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin: auto 0;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+}
+
+#search-input {
+    width: 520px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+
+.search-buttons {
+    margin: auto;
+}
+
+.search-buttons button {
+    padding: 10px 15px;
+    margin: 0px 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.search-buttons button:hover {
+    border: 1px solid #4d4d4d;
+}
+
+.search-buttons button:focus {
+    outline: none;
+    border: 1px solid #0039e6;
+}
+
+.google-alt {
+    margin: auto;
+}
+
+#footer {
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 980px;
+    background-color: #f2f2f2;
+}
+
+.trans-color, .trans-color a {
+    font-size: 0.85rem;
+    color: rgba(0,0,0,.7);
+}
+
+.country-bar {
+    padding: 15px 0;
+    border: 1px solid #d9d9d9;
+    margin: 0;
+}
+
+#country {
+    padding-left: 25px;
+}
+
+.business {
+    float: left;
+    padding: 15px 17px;
+}
+
+.legal {
+    float: right;
+    padding: 15px 17px;
+}
+
+@media (min-width: 980px){
+    #footer {
+        width: 100%;
+    }
+}
