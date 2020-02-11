@@ -121,13 +121,16 @@ a:hover {
     margin: auto;
 }
 
-#footer {
+.footer {
     display: block;
     position: fixed;
     bottom: 0px;
     left: 0px;
-    width: 980px;
     background-color: #f2f2f2;
+}
+
+#footer-home {
+    width: 980px;
 }
 
 .trans-color, .trans-color a {
@@ -156,15 +159,19 @@ a:hover {
 }
 
 @media (min-width: 980px){
-    #footer {
+    #footer-home {
         width: 100%;
     }
 }
 
 /*  Google Search Page  */
 
-#search-header, #search-main {
+#search-header {
     min-width: 1100px;
+}
+
+#search-main {
+    min-width: 932px;
 }
 
 #search-space {
@@ -285,6 +292,7 @@ a:hover {
 .box-result {
     width: 600px;
     margin-left: -20px;
+    margin-bottom: 30px;
 }
 
 .box {
@@ -309,4 +317,108 @@ a:hover {
     font-style: italic;
     padding-top: 5px;
     color: rgba(0,0,0,.7);
+}
+
+.small-text {
+    font-size: 0.9rem;
+    color: rgba(0,0,0,.7);
+}
+
+.related-results {
+    display: flex;
+    
+}
+
+.rel-box {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 7px 15px 7px;
+    text-align: center;
+}
+
+.rel-img {
+    margin-bottom: 5px;
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+}
+
+.narrow-link {
+    width: 72px;
+}
+
+#keyword {
+    padding: 0;
+    color: #1a0dab;
+    font-weight: 900;
+    font-size: 0.9rem;
+}
+
+.keyword-list li {
+    margin: 8px 0;
+    margin-right: 20px;
+}
+
+.keyword-list {
+    display: flex;
+    margin: 20px 0;
+    height: 100px;
+}
+
+.big-font {
+    font-size: 1.4rem;
+}
+
+#google-g {
+    display: block;
+    width: 28px;
+    height: 28px;
+    padding-bottom: 25px;
+}
+
+#google-gle {
+    display: block;
+    width: 70%;
+    height: 70%;
+    padding-bottom: 2px;
+}
+
+#red-o, #yellow-o {
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0 2px 12px 2px;
+}
+
+#pages-nav td {
+    display: inline-block;
+    text-align: center;
+}
+
+#pages-nav tr {
+    vertical-align: top;
+}
+
+.page-links {
+    color: #3385ff;
+    font-size: 0.9rem;
+}
+
+.table {
+    margin: 0 auto;
+}
+
+#footer-search {
+    position: relative;
+    width: 1100px;
+}
+
+#search-input {
+    font-size: 0.9rem;
+}
+
+@media (min-width: 1100px){
+    #footer-search {
+        width: 100%;
+    }
 }
